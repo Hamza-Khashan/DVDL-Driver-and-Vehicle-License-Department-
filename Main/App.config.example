@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Setup: copy this file to "App.config" (same folder) and adjust the connection string.
+  App.config is git-ignored so your real credentials are never committed.
+-->
+<configuration>
+    <connectionStrings>
+        <!-- Windows Authentication (no password) -->
+        <add name="DVLD"
+             connectionString="Server=.;Database=DVLD;Trusted_Connection=True;"
+             providerName="System.Data.SqlClient" />
+
+        <!-- Or SQL Server Authentication:
+        <add name="DVLD"
+             connectionString="Server=.;Database=DVLD;User Id=YOUR_USER;Password=YOUR_PASSWORD;"
+             providerName="System.Data.SqlClient" />
+        -->
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+</configuration>

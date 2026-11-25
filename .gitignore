@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+
+# NuGet
+packages/
+
+# Database files (use the SQL script in Database/ instead)
+*.mdf
+*.ldf
+*.bak
+
+# Local config with real credentials - copy Main/App.config.example to Main/App.config
+Main/App.config
